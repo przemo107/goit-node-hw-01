@@ -1,0 +1,31 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/przemo107/goit-node-hw-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/przemo107/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/przemo107/goit-node-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "commander": "^10.0.1",
+    "nanoid": "^4.0.2",
+    "yargs": "^17.7.2"
+  }
+}
